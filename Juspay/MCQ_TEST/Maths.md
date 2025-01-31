@@ -88,10 +88,27 @@ A matrix of size `m × n` has `m` rows and `n` columns.
 ### **1.2 Determinants**
 The **determinant** of a square matrix provides information about the matrix properties, such as invertibility.
 
-For a **2×2 matrix**:  
-|A| = | a b | | c d | = (ad - bc)
-For a **3×3 matrix**:  
-|A| = | a b c | | d e f | | g h i | = a(ei − fh) − b(di − fg) + c(dh − eg)
+**For a 2×2 matrix:**
+
+$$
+|A| = \begin{vmatrix} 
+a & b \\ 
+c & d 
+\end{vmatrix} = (ad - bc)
+$$
+
+---
+
+**For a 3×3 matrix:**
+
+$$
+|A| = \begin{vmatrix} 
+a & b & c \\ 
+d & e & f \\ 
+g & h & i 
+\end{vmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)
+$$
+       
 ### **1.3 Eigenvalues and Eigenvectors**
 For a **square matrix** `A`, an **eigenvector** `v` and an **eigenvalue** `λ` satisfy:
 
